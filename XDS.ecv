@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CV_RESOURCE AUTHOR="" DATE="2017-01-19T13:09:42+01:00" VERSION="0.2"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
+    <LANGUAGE LANG_DEF="http://cdb.iso.org/lg/CDB-00130975-001"
+        LANG_ID="und" LANG_LABEL="undetermined (und)"/>
+    <CONTROLLED_VOCABULARY CV_ID="XDS">
+        <DESCRIPTION LANG_REF="und">Classifications of adult speech that may or may not be addressed to the target child.</DESCRIPTION>
+        <CV_ENTRY_ML CVE_ID="cveid0">
+            <CVE_VALUE
+                DESCRIPTION="Utterance is directed at one or more adults." LANG_REF="und">ADU</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid1">
+            <CVE_VALUE
+                DESCRIPTION="Utterance is directed at one or more children." LANG_REF="und">CHI</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid4">
+            <CVE_VALUE
+                DESCRIPTION="Utterance is directed to at least one adult and at least one child." LANG_REF="und">BOTH</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid5">
+            <CVE_VALUE
+                DESCRIPTION="When you are not able to make a classification." LANG_REF="und">Unsure</CVE_VALUE>
+        </CV_ENTRY_ML>
+    </CONTROLLED_VOCABULARY>
+</CV_RESOURCE>
