@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences version="1.1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
+    <prefList key="MultiTierViewer.TierOrder">
+        <String>Notes</String>
+        <String>TCH</String>
+        <String>TCHI-VocMat</String>
+        <String>FA1</String>
+        <String>FA1-XDS</String>
+    </prefList>
+    <pref key="LayoutManager.VisibleMultiTierViewer">
+        <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
+    </pref>
+    <pref key="FrameSize">
+        <Object class="java.awt.Dimension">1920,1053</Object>
+    </pref>
+    <prefGroup key="TierColors">
+        <pref key="TCH">
+            <Object class="java.awt.Color">90,90,0</Object>
+        </pref>
+        <pref key="Notes">
+            <Object class="java.awt.Color">0,160,160</Object>
+        </pref>
+        <pref key="FA1">
+            <Object class="java.awt.Color">160,90,90</Object>
+        </pref>
+    </prefGroup>
+    <pref key="FrameLocation">
+        <Object class="java.awt.Point">0,23</Object>
+    </pref>
+    <pref key="MultiTierViewer.ActiveTierName">
+        <String>Notes</String>
+    </pref>
+    <pref key="LayoutManager.CurrentMode">
+        <Int>1</Int>
+    </pref>
+</preferences>

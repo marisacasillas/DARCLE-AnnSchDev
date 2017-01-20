@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ANNOTATION_DOCUMENT AUTHOR="" DATE="2017-01-19T17:07:35+01:00" FORMAT="3.0" VERSION="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
+<ANNOTATION_DOCUMENT AUTHOR="" DATE="2017-01-20T13:39:10+01:00" FORMAT="3.0" VERSION="3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv3.0.xsd">
     <HEADER MEDIA_FILE="" TIME_UNITS="milliseconds"/>
     <TIME_ORDER/>
     <TIER LINGUISTIC_TYPE_REF="Notes" PARTICIPANT="N/A" TIER_ID="Notes"/>
@@ -8,8 +8,8 @@
     <TIER LINGUISTIC_TYPE_REF="OrtTrans-OTH" PARTICIPANT="FA1" TIER_ID="FA1"/>
     <TIER LINGUISTIC_TYPE_REF="XDS" PARENT_REF="FA1" PARTICIPANT="FA1" TIER_ID="FA1-XDS"/>
     <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="OrtTrans-TCHI" TIME_ALIGNABLE="true"/>
-    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="VocMat" TIME_ALIGNABLE="false"/>
-    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="XDS" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" CONTROLLED_VOCABULARY_REF="VocMat" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="VocMat" TIME_ALIGNABLE="false"/>
+    <LINGUISTIC_TYPE CONSTRAINTS="Symbolic_Association" CONTROLLED_VOCABULARY_REF="XDS" GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="XDS" TIME_ALIGNABLE="false"/>
     <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="Notes" TIME_ALIGNABLE="true"/>
     <LINGUISTIC_TYPE GRAPHIC_REFERENCES="false" LINGUISTIC_TYPE_ID="OrtTrans-OTH" TIME_ALIGNABLE="true"/>
     <LANGUAGE LANG_DEF="http://cdb.iso.org/lg/CDB-00130975-001" LANG_ID="und" LANG_LABEL="undetermined (und)"/>
@@ -17,7 +17,7 @@
     <CONSTRAINT DESCRIPTION="Symbolic subdivision of a parent annotation. Annotations refering to the same parent are ordered" STEREOTYPE="Symbolic_Subdivision"/>
     <CONSTRAINT DESCRIPTION="1-1 association with a parent annotation" STEREOTYPE="Symbolic_Association"/>
     <CONSTRAINT DESCRIPTION="Time alignable annotations within the parent annotation's time interval, gaps are allowed" STEREOTYPE="Included_In"/>
-    <CONTROLLED_VOCABULARY CV_ID="VocMat_sub" EXT_REF="er1"/>
+    <CONTROLLED_VOCABULARY CV_ID="VocMat" EXT_REF="er1"/>
     <CONTROLLED_VOCABULARY CV_ID="XDS" EXT_REF="er2"/>
     <EXTERNAL_REF EXT_REF_ID="er2" TYPE="ecv" VALUE="https://raw.githubusercontent.com/marisacasillas/DARCLE-AnnSchDev/master/XDS.ecv"/>
     <EXTERNAL_REF EXT_REF_ID="er1" TYPE="ecv" VALUE="https://raw.githubusercontent.com/marisacasillas/DARCLE-AnnSchDev/master/VocMat.ecv"/>
