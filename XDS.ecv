@@ -12,7 +12,7 @@
             <CVE_VALUE DESCRIPTION="Adult addressee (1+)" LANG_REF="und">A</CVE_VALUE>
         </CV_ENTRY_ML>
         <CV_ENTRY_ML CVE_ID="cveid2">
-            <CVE_VALUE DESCRIPTION="Child and adult addressees" LANG_REF="und">B</CVE_VALUE>
+            <CVE_VALUE DESCRIPTION="Both child and adult addressees" LANG_REF="und">B</CVE_VALUE>
         </CV_ENTRY_ML>
         <CV_ENTRY_ML CVE_ID="cveid3">
             <CVE_VALUE DESCRIPTION="Unsure" LANG_REF="und">U</CVE_VALUE>

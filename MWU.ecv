@@ -6,10 +6,13 @@
     <CONTROLLED_VOCABULARY CV_ID="MWU">
         <DESCRIPTION LANG_REF="und">Binary decision: Does the utterance contain multiple words?</DESCRIPTION>
         <CV_ENTRY_ML CVE_ID="cveid0">
-            <CVE_VALUE DESCRIPTION="Yes, multiple words" LANG_REF="und">Y</CVE_VALUE>
+            <CVE_VALUE DESCRIPTION="Yes: multiple words" LANG_REF="und">Y</CVE_VALUE>
         </CV_ENTRY_ML>
         <CV_ENTRY_ML CVE_ID="cveid1">
-            <CVE_VALUE DESCRIPTION="No, one word" LANG_REF="und">N</CVE_VALUE>
+            <CVE_VALUE DESCRIPTION="No: one word" LANG_REF="und">N</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid2">
+            <CVE_VALUE DESCRIPTION="Unsure" LANG_REF="und">U</CVE_VALUE>
         </CV_ENTRY_ML>
     </CONTROLLED_VOCABULARY>
 </CV_RESOURCE>

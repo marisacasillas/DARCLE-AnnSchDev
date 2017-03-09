@@ -6,10 +6,14 @@
     <CONTROLLED_VOCABULARY CV_ID="LEX">
         <DESCRIPTION LANG_REF="und">Binary decision: Does the utterance contain lexical material?</DESCRIPTION>
         <CV_ENTRY_ML CVE_ID="cveid0">
-            <CVE_VALUE DESCRIPTION="Yes, wholly/partly lexical" LANG_REF="und">Y</CVE_VALUE>
+            <CVE_VALUE DESCRIPTION="Yes: lexical (partly/wholly)" LANG_REF="und">Y</CVE_VALUE>
         </CV_ENTRY_ML>
         <CV_ENTRY_ML CVE_ID="cveid1">
-            <CVE_VALUE DESCRIPTION="No, not lexical" LANG_REF="und">N</CVE_VALUE>
+            <CVE_VALUE DESCRIPTION="No: not lexical" LANG_REF="und">N</CVE_VALUE>
+        </CV_ENTRY_ML>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid2">
+            <CVE_VALUE DESCRIPTION="Unsure" LANG_REF="und">U</CVE_VALUE>
         </CV_ENTRY_ML>
     </CONTROLLED_VOCABULARY>
 </CV_RESOURCE>

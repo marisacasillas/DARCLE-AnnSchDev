@@ -6,7 +6,7 @@
     <CONTROLLED_VOCABULARY CV_ID="VCM">
         <DESCRIPTION LANG_REF="und">Simplified subset of infant vocal maturity classes (by consultation with Anne Warlaumont, UC Merced).</DESCRIPTION>
         <CV_ENTRY_ML CVE_ID="cveid0">
-            <CVE_VALUE DESCRIPTION="laughing" LANG_REF="und">L</CVE_VALUE>
+            <CVE_VALUE DESCRIPTION="Laughing" LANG_REF="und">L</CVE_VALUE>
         </CV_ENTRY_ML>
         <CV_ENTRY_ML CVE_ID="cveid1">
             <CVE_VALUE DESCRIPTION="Crying" LANG_REF="und">Y</CVE_VALUE>
