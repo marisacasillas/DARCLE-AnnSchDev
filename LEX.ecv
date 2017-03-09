@@ -11,7 +11,6 @@
         <CV_ENTRY_ML CVE_ID="cveid1">
             <CVE_VALUE DESCRIPTION="No: not lexical" LANG_REF="und">N</CVE_VALUE>
         </CV_ENTRY_ML>
-        </CV_ENTRY_ML>
         <CV_ENTRY_ML CVE_ID="cveid2">
             <CVE_VALUE DESCRIPTION="Unsure" LANG_REF="und">U</CVE_VALUE>
         </CV_ENTRY_ML>
