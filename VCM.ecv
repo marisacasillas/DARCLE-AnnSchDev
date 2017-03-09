@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CV_RESOURCE AUTHOR="" DATE="2017-03-09T07:48:41+01:00" VERSION="0.2"
+<CV_RESOURCE AUTHOR="" DATE="2017-03-09T07:46:47+01:00" VERSION="0.2"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/EAFv2.8.xsd">
     <LANGUAGE LANG_DEF="http://cdb.iso.org/lg/CDB-00130975-001"
         LANG_ID="und" LANG_LABEL="undetermined (und)"/>
-    <CONTROLLED_VOCABULARY CV_ID="XDS">
-        <DESCRIPTION LANG_REF="und">Classifications of adult speech that may or may not be addressed to the target child.</DESCRIPTION>
+    <CONTROLLED_VOCABULARY CV_ID="VCM">
+        <DESCRIPTION LANG_REF="und">Simplified subset of infant vocal maturity classes (by consultation with Anne Warlaumont, UC Merced).</DESCRIPTION>
         <CV_ENTRY_ML CVE_ID="cveid0">
-            <CVE_VALUE DESCRIPTION="Child addressee (1+)" LANG_REF="und">C</CVE_VALUE>
+            <CVE_VALUE DESCRIPTION="laughing" LANG_REF="und">L</CVE_VALUE>
         </CV_ENTRY_ML>
         <CV_ENTRY_ML CVE_ID="cveid1">
-            <CVE_VALUE DESCRIPTION="Adult addressee (1+)" LANG_REF="und">A</CVE_VALUE>
+            <CVE_VALUE DESCRIPTION="Crying" LANG_REF="und">Y</CVE_VALUE>
         </CV_ENTRY_ML>
         <CV_ENTRY_ML CVE_ID="cveid2">
-            <CVE_VALUE DESCRIPTION="Child and adult addressees" LANG_REF="und">B</CVE_VALUE>
+            <CVE_VALUE DESCRIPTION="Non-canonical syllables" LANG_REF="und">N</CVE_VALUE>
         </CV_ENTRY_ML>
         <CV_ENTRY_ML CVE_ID="cveid3">
+            <CVE_VALUE DESCRIPTION="Canonical syllables" LANG_REF="und">C</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid4">
             <CVE_VALUE DESCRIPTION="Unsure" LANG_REF="und">U</CVE_VALUE>
         </CV_ENTRY_ML>
     </CONTROLLED_VOCABULARY>
