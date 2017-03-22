@@ -62,6 +62,33 @@
                 </pref>
             </prefGroup>
         </prefGroup>
+        <prefGroup key="vcm">
+            <prefGroup key="cveid1">
+                <pref key="KeyCode">
+                    <Int>89</Int>
+                </pref>
+            </prefGroup>
+            <prefGroup key="cveid2">
+                <pref key="KeyCode">
+                    <Int>78</Int>
+                </pref>
+            </prefGroup>
+            <prefGroup key="cveid3">
+                <pref key="KeyCode">
+                    <Int>67</Int>
+                </pref>
+            </prefGroup>
+            <prefGroup key="cveid4">
+                <pref key="KeyCode">
+                    <Int>85</Int>
+                </pref>
+            </prefGroup>
+            <prefGroup key="cveid0">
+                <pref key="KeyCode">
+                    <Int>76</Int>
+                </pref>
+            </prefGroup>
+        </prefGroup>
     </prefGroup>
     <prefGroup key="TierColors">
         <pref key="CHI">
