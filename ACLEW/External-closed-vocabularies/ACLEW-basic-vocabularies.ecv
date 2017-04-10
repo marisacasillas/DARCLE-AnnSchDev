@@ -24,19 +24,19 @@
     <CONTROLLED_VOCABULARY CV_ID="lex">
         <DESCRIPTION LANG_REF="und">Binary flag for presence of recognizable lexical content: Does the utterance contain at least one recognizable word?</DESCRIPTION>
         <CV_ENTRY_ML CVE_ID="cveid0">
-            <CVE_VALUE DESCRIPTION="1+ word in utterance" LANG_REF="und">Y</CVE_VALUE>
+            <CVE_VALUE DESCRIPTION="1+ word in utterance" LANG_REF="und">W</CVE_VALUE>
         </CV_ENTRY_ML>
         <CV_ENTRY_ML CVE_ID="cveid1">
-            <CVE_VALUE DESCRIPTION="No words in utterance" LANG_REF="und">N</CVE_VALUE>
+            <CVE_VALUE DESCRIPTION="No words in utterance" LANG_REF="und">0</CVE_VALUE>
         </CV_ENTRY_ML>
     </CONTROLLED_VOCABULARY>
     <CONTROLLED_VOCABULARY CV_ID="mwu">
         <DESCRIPTION LANG_REF="und">Binary flag for presence of multi-word utterances: Does the utterance contain two or more recognizable words?</DESCRIPTION>
         <CV_ENTRY_ML CVE_ID="cveid1">
-            <CVE_VALUE DESCRIPTION="2+ words in the utterance" LANG_REF="und">Y</CVE_VALUE>
+            <CVE_VALUE DESCRIPTION="2+ words in the utterance" LANG_REF="und">M</CVE_VALUE>
         </CV_ENTRY_ML>
         <CV_ENTRY_ML CVE_ID="cveid0">
-            <CVE_VALUE DESCRIPTION="Only one word in the utterance" LANG_REF="und">N</CVE_VALUE>
+            <CVE_VALUE DESCRIPTION="Only one word in the utterance" LANG_REF="und">1</CVE_VALUE>
         </CV_ENTRY_ML>
     </CONTROLLED_VOCABULARY>
     <CONTROLLED_VOCABULARY CV_ID="xds">
