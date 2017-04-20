@@ -16,6 +16,18 @@
         <Int>1</Int>
     </pref>
     <prefGroup key="CV.ML.Prefs">
+        <prefGroup key="mwu">
+            <prefGroup key="cveid1">
+                <pref key="KeyCode">
+                    <Int>49</Int>
+                </pref>
+            </prefGroup>
+            <prefGroup key="cveid0">
+                <pref key="KeyCode">
+                    <Int>77</Int>
+                </pref>
+            </prefGroup>
+        </prefGroup>
         <prefGroup key="">
             <prefGroup key="cveid1">
                 <pref key="KeyCode">
@@ -40,18 +52,6 @@
             <prefGroup key="cveid0">
                 <pref key="KeyCode">
                     <Int>76</Int>
-                </pref>
-            </prefGroup>
-        </prefGroup>
-        <prefGroup key="mwu">
-            <prefGroup key="cveid1">
-                <pref key="KeyCode">
-                    <Int>49</Int>
-                </pref>
-            </prefGroup>
-            <prefGroup key="cveid0">
-                <pref key="KeyCode">
-                    <Int>77</Int>
                 </pref>
             </prefGroup>
         </prefGroup>
