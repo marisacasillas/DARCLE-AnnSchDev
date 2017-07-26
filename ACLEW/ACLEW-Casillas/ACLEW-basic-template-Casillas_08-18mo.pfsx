@@ -20,18 +20,6 @@
         <Int>1</Int>
     </pref>
     <prefGroup key="CV.ML.Prefs">
-        <prefGroup key="mwu">
-            <prefGroup key="cveid1">
-                <pref key="KeyCode">
-                    <Int>49</Int>
-                </pref>
-            </prefGroup>
-            <prefGroup key="cveid0">
-                <pref key="KeyCode">
-                    <Int>77</Int>
-                </pref>
-            </prefGroup>
-        </prefGroup>
         <prefGroup key="">
             <prefGroup key="cveid1">
                 <pref key="KeyCode">
@@ -59,10 +47,15 @@
                 </pref>
             </prefGroup>
         </prefGroup>
-        <prefGroup key="present">
+        <prefGroup key="mwu">
+            <prefGroup key="cveid1">
+                <pref key="KeyCode">
+                    <Int>49</Int>
+                </pref>
+            </prefGroup>
             <prefGroup key="cveid0">
                 <pref key="KeyCode">
-                    <Int>80</Int>
+                    <Int>77</Int>
                 </pref>
             </prefGroup>
         </prefGroup>
@@ -78,30 +71,47 @@
                 </pref>
             </prefGroup>
         </prefGroup>
+        <prefGroup key="present">
+            <prefGroup key="cveid0">
+                <pref key="KeyCode">
+                    <Int>80</Int>
+                </pref>
+            </prefGroup>
+        </prefGroup>
         <prefGroup key="xds">
             <prefGroup key="cveid1">
                 <pref key="KeyCode">
-                    <Int>65</Int>
+                    <Int>67</Int>
                 </pref>
             </prefGroup>
             <prefGroup key="cveid2">
                 <pref key="KeyCode">
-                    <Int>66</Int>
+                    <Int>65</Int>
                 </pref>
             </prefGroup>
             <prefGroup key="cveid3">
                 <pref key="KeyCode">
-                    <Int>85</Int>
+                    <Int>66</Int>
                 </pref>
             </prefGroup>
             <prefGroup key="cveid4">
                 <pref key="KeyCode">
-                    <Int>84</Int>
+                    <Int>80</Int>
                 </pref>
             </prefGroup>
             <prefGroup key="cveid0">
                 <pref key="KeyCode">
-                    <Int>67</Int>
+                    <Int>84</Int>
+                </pref>
+            </prefGroup>
+            <prefGroup key="cveid5">
+                <pref key="KeyCode">
+                    <Int>79</Int>
+                </pref>
+            </prefGroup>
+            <prefGroup key="cveid6">
+                <pref key="KeyCode">
+                    <Int>85</Int>
                 </pref>
             </prefGroup>
         </prefGroup>
@@ -134,7 +144,7 @@
         </prefGroup>
     </prefGroup>
     <pref key="FrameSize">
-        <Object class="java.awt.Dimension">1366,728</Object>
+        <Object class="java.awt.Dimension">1718,925</Object>
     </pref>
     <prefGroup key="TierColors">
         <pref key="Notes">
@@ -154,7 +164,7 @@
         <Object class="java.awt.Point">0,23</Object>
     </pref>
     <pref key="MultiTierViewer.ActiveTierName">
-        <String>CHI</String>
+        <String>Notes</String>
     </pref>
     <pref key="LayoutManager.CurrentMode">
         <Int>1</Int>
