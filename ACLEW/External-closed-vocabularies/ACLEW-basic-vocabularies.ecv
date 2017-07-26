@@ -51,6 +51,12 @@
             <CVE_VALUE DESCRIPTION="Child *and* adult addressees" LANG_REF="und">B</CVE_VALUE>
         </CV_ENTRY_ML>
         <CV_ENTRY_ML CVE_ID="cveid3">
+            <CVE_VALUE DESCRIPTION="Animal/pet addressee" LANG_REF="und">P</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid4">
+            <CVE_VALUE DESCRIPTION="Other addressee" LANG_REF="und">O</CVE_VALUE>
+        </CV_ENTRY_ML>
+        <CV_ENTRY_ML CVE_ID="cveid5">
             <CVE_VALUE DESCRIPTION="Unsure" LANG_REF="und">U</CVE_VALUE>
         </CV_ENTRY_ML>
     </CONTROLLED_VOCABULARY>
