@@ -27,14 +27,14 @@
         <String>Modification Date</String>
     </prefList>
     <pref key="LayoutManager.SplitPaneDividerLocation">
-        <Int>580</Int>
+        <Int>107</Int>
     </pref>
     <prefList key="SegmentationViewer.HiddenTiers"/>
     <pref key="TimeLineViewer.ZoomLevel">
         <Float>45.0</Float>
     </pref>
     <pref key="LayoutManager.SelectedTabIndex">
-        <Int>5</Int>
+        <Int>0</Int>
     </pref>
     <pref key="SegmentationViewer.ActiveTier">
         <String>FA2</String>
@@ -58,7 +58,7 @@
         <Object class="java.awt.Point">0,23</Object>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>46080</Long>
+        <Long>5640</Long>
     </pref>
     <prefList key="Search.HiddenItems">
         <String>CHI</String>
@@ -81,7 +81,7 @@
         <String>FA2</String>
     </prefList>
     <pref key="MediaTime">
-        <Long>46080</Long>
+        <Long>7731</Long>
     </pref>
     <pref key="MultiTierViewer.TierSortingMode">
         <Int>1</Int>
@@ -90,18 +90,6 @@
         <Float>1.0</Float>
     </pref>
     <prefGroup key="CV.ML.Prefs">
-        <prefGroup key="mwu">
-            <prefGroup key="cveid1">
-                <pref key="KeyCode">
-                    <Int>49</Int>
-                </pref>
-            </prefGroup>
-            <prefGroup key="cveid0">
-                <pref key="KeyCode">
-                    <Int>77</Int>
-                </pref>
-            </prefGroup>
-        </prefGroup>
         <prefGroup key="">
             <prefGroup key="cveid1">
                 <pref key="KeyCode">
@@ -126,6 +114,18 @@
             <prefGroup key="cveid0">
                 <pref key="KeyCode">
                     <Int>76</Int>
+                </pref>
+            </prefGroup>
+        </prefGroup>
+        <prefGroup key="mwu">
+            <prefGroup key="cveid1">
+                <pref key="KeyCode">
+                    <Int>49</Int>
+                </pref>
+            </prefGroup>
+            <prefGroup key="cveid0">
+                <pref key="KeyCode">
+                    <Int>77</Int>
                 </pref>
             </prefGroup>
         </prefGroup>
@@ -208,8 +208,8 @@
     <pref key="Search.TierSelectionMode">
         <String>Tier</String>
     </pref>
-    <pref key="ActiveRecognizerName">
-        <String>AAM-LR Phone level audio segmentation</String>
+    <pref key="MultiTierViewer.ActiveTierName">
+        <String>CHI</String>
     </pref>
     <prefGroup key="CommentViewer.Columns">
         <pref key="Modification Date">
@@ -243,17 +243,17 @@
             <Int>75</Int>
         </pref>
     </prefGroup>
-    <pref key="MultiTierViewer.ActiveTierName">
-        <String>CHI</String>
+    <pref key="ActiveRecognizerName">
+        <String>AAM-LR Phone level audio segmentation</String>
     </pref>
     <pref key="TimeScaleBeginTime">
-        <Long>11209</Long>
-    </pref>
-    <pref key="LayoutManager.MediaAreaHeight">
-        <Int>324</Int>
+        <Long>0</Long>
     </pref>
     <prefList key="MultiTierViewer.HiddenTiers"/>
+    <pref key="LayoutManager.MediaAreaHeight">
+        <Int>84</Int>
+    </pref>
     <pref key="SelectionEndTime">
-        <Long>50320</Long>
+        <Long>8720</Long>
     </pref>
 </preferences>
